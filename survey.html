@@ -1,0 +1,96 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Coffee Survey</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>All About Coffee</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="roasting.html">Roasting</a></li>
+                <li><a href="grinding.html">Grinding</a></li>
+                <li><a href="brewing.html">Brewing</a></li>
+                <li><a href="drinks.html">Drinks</a></li>
+                <li><a href="survey.html">Survey</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h1>Coffee Survey</h1>
+    <aside>
+        <figure><img src="images/espresso.jpg" alt="espresso"></figure>
+    </aside>
+    <form action="sample.py" method="post">
+        <fieldset>
+            <legend>Personal Information</legend>
+
+            <label for="first-name">Your Name</label>
+            <input type="text" name="first name" autofocus required id="first-name" size="40"></br></br>
+
+            <label for="email">Email Address</label>
+            <input type="email" name="email" placeholder="Enter a valid email address" required id="email"
+                size="40"></br></br>
+        </fieldset>
+        </br>
+
+
+        <fieldset>
+            <legend>Your Coffee preferences</legend>
+
+            <label for="message">Tell us about your coffee preparation methods</label></br>
+            <textarea name="message" id="message" cols="40" rows="6"></textarea></br></br>
+
+
+            <label for="radio">Do you grind your own beans?</label></br>
+            <input type="radio" name="grind" value="yes" id="radio">yes
+            <input type="radio" name="grind" value="no" id="radio">no</br></br>
+
+
+            <label for="checkbox">How do you drink your coffee?</label></br>
+            <input class="check" type="checkbox" name="check" value="sugar" id="checkbox"> with sugar
+            <input class="check" type="checkbox" name="check" value="cream" id="checkbox"> with cream</br></br>
+
+
+
+
+            <label for="dropdown">What is your favorite coffee drink?
+            </label></br>
+            <select name="dropdown">
+                <option value="" id="dropdown">please select a drink</option>
+                <option value="drip" id="dropdown">drip coffee</option>
+                <option value="french" id="dropdown">french press</option>
+                <option value="espresso" id="dropdown">espresso</option>
+                <option value="latte" id="dropdown">latte</option>
+                <option value="flavoured" id="dropdown">flavored</option>
+
+
+            </select>
+            </br></br>
+
+        </fieldset>
+
+
+
+
+    </form>
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="roasting.html">Roasting</a></li>
+                <li><a href="grinding.html">Grinding</a></li>
+                <li><a href="brewing.html">Brewing</a></li>
+                <li><a href="drinks.html">Drinks</a></li>
+                <li><a href="survey.html">Survey</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+
+</html>
